@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./style"
 import { View } from "react-native";
 import Subtitle from "./subtitle";
 import Button from "./button";
@@ -9,14 +10,13 @@ import Personagem from "./personagem";
 
 export default  function Main(){
     return(
-     <View>
+     <View style={styles.main}>
         <Subtitle/>
         <Button/>
         <LabelCadastro/>
         <ButtonCadastrar/>
         <BalaoConversa/>
         <Personagem/>
-        
      </View>
     );
 }
