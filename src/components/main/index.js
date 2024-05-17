@@ -8,15 +8,18 @@ import ButtonCadastrar from "./buttonCadastrar";
 import BalaoConversa from "./balaoConversa";
 import Personagem from "./personagem";
 
-export default  function Main(){
+
+export default  function Main({ navigation }){
     return(
-     <View style={styles.main}>
-        <Subtitle/>
-        <Button/>
-        <LabelCadastro/>
-        <ButtonCadastrar/>
-        <BalaoConversa/>
-        <Personagem/>
-     </View>
+     
+        <View style={styles.main}>
+            <Subtitle/>
+            <Button/>
+            <LabelCadastro/>
+            <ButtonCadastrar/>
+            <BalaoConversa/>
+            <Personagem/>
+        </View>
+     
     );
 }
