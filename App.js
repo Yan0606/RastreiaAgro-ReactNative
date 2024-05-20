@@ -7,6 +7,7 @@ import Title from './src/components/title';
 import Main from './src/components/main';
 import { StyleSheet } from 'react-native';
 import Login from './src/components/pages/login/index'
+import Cadastro from './src/components/pages/cadastro/index';
 
 function HomeScreen({ navigation }) {
   return (
@@ -23,6 +24,11 @@ function LoginScreen({ navigation }) {
     <Login/>
   );
 }
+function CadastroScreen({ navigation }) {
+  return (
+    <Cadastro/>
+  );
+}
 
 const Stack = createNativeStackNavigator();
 
@@ -32,6 +38,7 @@ function App() {
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Login" component={LoginScreen} />
+        <Stack.Screen name="Cadastro" component={CadastroScreen} />
         {/* novas telas adicionar aqui */}
       </Stack.Navigator>
     </NavigationContainer>
