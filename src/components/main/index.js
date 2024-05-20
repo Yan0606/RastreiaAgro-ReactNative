@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./style"
 import { View } from "react-native";
+import Logo from "../logo";
 import Subtitle from "./subtitle";
 import Button from "./button";
 import LabelCadastro from "./labelCadastro";
@@ -13,6 +14,7 @@ export default  function Main({ navigation }){
     return(
      
         <View style={styles.main}>
+            <Logo/> 
             <Subtitle/>
             <Button/>
             <LabelCadastro/>
