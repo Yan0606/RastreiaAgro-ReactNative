@@ -1,13 +1,11 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-
-  
-
-  btnVoltar:{
-    width: 50,
-    height: 50,
-
+  personagem:{
+    width: 315,
+    height: 332,
+    marginLeft:160,
+    marginTop:110,
   },
 });
 
