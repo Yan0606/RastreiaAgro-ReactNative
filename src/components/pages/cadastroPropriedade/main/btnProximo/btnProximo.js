@@ -6,13 +6,13 @@ import { useNavigation } from '@react-navigation/native';
 export default function BtnProximo() { 
 
     const navigation = useNavigation();
-    const cadastroPropriedade = () => {
-        navigation.navigate('CadastroPropriedade');
+    const obrigado = () => {
+        navigation.navigate('Obrigado');
     }
 
     return (
         <View>
-            <TouchableOpacity style={styles.button} onPress={() => { cadastroPropriedade() }}>
+            <TouchableOpacity style={styles.button} onPress={() => { obrigado() }}>
                 <Text style={styles.text}>PROXIMO</Text>
             </TouchableOpacity>
         </View>
