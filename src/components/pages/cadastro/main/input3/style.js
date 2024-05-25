@@ -2,10 +2,10 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
-      margin: 22,
+      margin: 5,
     },
     input: {
-      height: 34,
+      height: 40,
       width:340,
       borderWidth: 1,
       paddingHorizontal: 10,
