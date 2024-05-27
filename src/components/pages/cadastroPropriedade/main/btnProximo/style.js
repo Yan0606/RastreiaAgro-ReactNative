@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
         width: 340,
         height: 34,
         borderRadius: 40,
-        marginBottom:24,
+        margin:10,
     },
     text: {
         color: "#FFFFFF",
