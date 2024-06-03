@@ -4,6 +4,7 @@ import { View, ImageBackground, Text, TextInput } from 'react-native';
 import { useNavigation } from "@react-navigation/native";
 import Header from './header/header';
 import Title from './title/title';
+import Main from './main/main';
 
 const backgroundImage = require('../../../img/bg.png');
 
@@ -15,6 +16,9 @@ export default Menu = () => {
             </View>
             <View>
                 <Title />
+            </View> 
+            <View>
+                <Main />
             </View>
         </ImageBackground>
     );
