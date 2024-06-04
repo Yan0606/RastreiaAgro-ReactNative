@@ -26,7 +26,9 @@ Para abrir você precisa ter o aplicativo EXPO em seu celular, se já o tem bast
 
 ## ✒️ Autores
 * **Yan Andrade**  - [Desenvolvedor Web]([https://github.com/linkParaPerfil](https://www.linkedin.com/in/yan-andrade-57b202196/))
-
+* **Rafael Perez**
+* **Adryan Freire**
+* **João Pedro Bagli**
 
 
 ## 📄 Licença
