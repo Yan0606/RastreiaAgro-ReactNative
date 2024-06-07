@@ -22,6 +22,9 @@ Para abrir você precisa ter o aplicativo EXPO em seu celular, se já o tem bast
 
 * [React Native](https://reactnative.dev) 
 
+## 📱 Protótipo
+
+* [Link do protótipo](https://www.figma.com/design/y2IZy9BP577fjhPkRhLw9p/RastreiaAgro?node-id=33-154&t=WExdDYMeH63PVgPF-0) 
 
 
 ## ✒️ Autores
