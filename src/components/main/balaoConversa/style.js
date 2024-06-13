@@ -13,9 +13,10 @@ const styles = StyleSheet.create({
     width: 238,
     height: 179,
     justifyContent: 'center',
+    marginRight: 85,
     position: "absolute",
     overflow: "hidden",
-    marginBottom: -124,
+    marginTop: 55,
   },
   texto: {
     fontSize: 20,
@@ -24,19 +25,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
 
   },
-  seta: {
-    width: 0,
-    height: 0,
-    borderTopWidth: 10,
-    borderTopColor: '#fff',
-    borderRightWidth: 10,
-    borderRightColor: 'transparent',
-    borderLeftWidth: 10,
-    borderLeftColor: 'transparent',
-    position: 'relative',
-    right: "-20%",
-    // top: -10,
-  },
+  
 });
 
 export default styles;
