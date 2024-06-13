@@ -11,6 +11,7 @@ import Cadastro from './src/components/pages/cadastro/index';
 import CadastroPropriedade from './src/components/pages/cadastroPropriedade/index';
 import Obrigado from './src/components/pages/obrigado';
 import Menu from './src/components/pages/menu/menu';
+import GerenciamentoSafra from './src/components/pages/gerenciamentoSafra/gerenciamentoSafra';
 import { SafeAreaProvider, SafeAreaInsetsContext } from 'react-native-safe-area-context';
 
 function HomeScreen({ navigation }) {
@@ -60,6 +61,12 @@ function MenuScreen({ navigation }) {
   );
 }
 
+function GerenciamentoSafraScreen({navigation}) {
+  return (
+    <GerenciamentoSafra />
+  );
+}
+
 const Stack = createNativeStackNavigator();
 
 function App() {
@@ -73,6 +80,7 @@ function App() {
           <Stack.Screen name="CadastroPropriedade" component={CadastroPropriedadeScreen} options={{ headerShown: false }} />
           <Stack.Screen name="Obrigado" component={ObrigadoScreen} options={{ headerShown: false }} />
           <Stack.Screen name="Menu" component={MenuScreen} />
+          <Stack.Screen name="GerenciamentoSafra" component={GerenciamentoSafraScreen} options={{ headerShown: false}} />
           {/* novas telas adicionar aqui */}
 
         </Stack.Navigator>
