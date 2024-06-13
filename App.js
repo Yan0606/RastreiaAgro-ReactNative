@@ -17,7 +17,6 @@ function HomeScreen({ navigation }) {
   return (
     <SafeAreaInsetsContext.Consumer>
       {insets => <View style={{ paddingTop: insets.top, ...styles.container }}>
-        <Logo />
         <Title />
         <Main />
       </View >}
