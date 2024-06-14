@@ -6,8 +6,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row'
   },
   iconeAgricultor: {
-    width: 52,
-    height: 52,
+    width: 60,
+    height: 60,
+    right:90,
+    top:-90,
   },
 });
 

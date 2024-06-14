@@ -4,7 +4,8 @@ const styles = StyleSheet.create({
   personagem: {
     width: 200,
     height: 250,
-    marginLeft:160,
+    marginLeft:210,
+    top:-140,
   },
 });
 

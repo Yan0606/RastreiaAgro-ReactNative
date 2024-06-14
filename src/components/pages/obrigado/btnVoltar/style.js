@@ -5,8 +5,10 @@ const styles = StyleSheet.create({
   
 
   btnVoltar:{
-    width: 50,
-    height: 50,
+    width: 47,
+    height: 47,
+    top:10,
+    left:5,
 
   },
 });

@@ -9,6 +9,8 @@ const styles = StyleSheet.create({
     height: 130,
     justifyContent: 'center',
     overflow: "hidden",
+    right:40,
+    top:50,
   },
   texto: {
     fontSize: 20,

@@ -4,9 +4,11 @@ const styles = StyleSheet.create({
 
     textTitle: {
         color: "#FFFFFF",
-        fontSize: 14,
+        fontSize: 16,
         fontWeight: "bold",
-        marginBottom: 10,
+        width:387,
+        left: 20,
+        marginBottom: 20,
     }
 });
 

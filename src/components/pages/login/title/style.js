@@ -5,12 +5,12 @@ const styles = StyleSheet.create({
         alignItems:"center",
         justifyContent: "center",
         padding: 10, 
-        width: 217,
+        width: 417,
         marginBottom:74,
     },
     textTitle:{
         color: "#FFFFFF",
-        fontSize: 24,
+        fontSize: 25,
         fontWeight: "bold",
     }
 });

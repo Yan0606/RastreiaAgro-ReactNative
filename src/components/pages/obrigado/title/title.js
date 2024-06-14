@@ -6,7 +6,8 @@ export default function Title() {
     return (
         <View>
             <Text style={styles.textTitle}>
-                Obrigado por terminar seu cadastro conosco
+                
+                OBRIGADO POR TERMINAR SEU CADASTRO CONOSCO
             </Text>
         </View>
     )
