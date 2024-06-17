@@ -2,7 +2,6 @@ import * as React from 'react';
 import { View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Logo from './src/components/logo';
 import Title from './src/components/title';
 import Main from './src/components/main';
 import { StyleSheet } from 'react-native';
@@ -12,6 +11,7 @@ import CadastroPropriedade from './src/components/pages/cadastroPropriedade/inde
 import Obrigado from './src/components/pages/obrigado';
 import Menu from './src/components/pages/menu/menu';
 import GerenciamentoSafra from './src/components/pages/gerenciamentoSafra/gerenciamentoSafra';
+import MenuConfiguracao from './src/components/pages/menuConfiguracao/menuConfiguracao'
 import { SafeAreaProvider, SafeAreaInsetsContext } from 'react-native-safe-area-context';
 
 function HomeScreen({ navigation }) {
@@ -66,6 +66,12 @@ function GerenciamentoSafraScreen({navigation}) {
   );
 }
 
+function MenuConfiguracaoScreen({navigation}) {
+  return (
+    <MenuConfiguracao />
+  );
+}
+
 const Stack = createNativeStackNavigator();
 
 function App() {
@@ -78,8 +84,9 @@ function App() {
           <Stack.Screen name="Cadastro" component={CadastroScreen} options={{ headerShown: false }} />
           <Stack.Screen name="CadastroPropriedade" component={CadastroPropriedadeScreen} options={{ headerShown: false }} />
           <Stack.Screen name="Obrigado" component={ObrigadoScreen} options={{ headerShown: false }} />
-          <Stack.Screen name="Menu" component={MenuScreen} />
+          <Stack.Screen name="Menu" component={MenuScreen} options={{ headerShown: false}}/>
           <Stack.Screen name="GerenciamentoSafra" component={GerenciamentoSafraScreen} options={{ headerShown: false}} />
+          <Stack.Screen name="MenuConfiguracao" component={MenuConfiguracaoScreen} options={{ headerShown: false}} />
           {/* novas telas adicionar aqui */}
 
         </Stack.Navigator>
