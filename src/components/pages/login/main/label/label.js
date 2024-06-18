@@ -1,13 +1,21 @@
-import React from "react"
-import { View, Text } from "react-native"
-import styles from "./style"
+import React from "react";
+import { View, Text, TouchableOpacity } from "react-native";
+import styles from "./style";
+import { useNavigation } from '@react-navigation/native';
 
-export default function label(){
-    return(
+
+export default function label() {
+    const navigation = useNavigation();
+    const home = () => {
+        navigation.navigate('Home');
+    }
+    return (
         <View >
-            <Text style={styles.textLabelCadastro}>
-                Entre ou Cadastre-se
-            </Text>
+            <TouchableOpacity onPress={() => { home() }}>
+                <Text style={styles.textLabelCadastro}>
+                    Entre ou Cadastre-se
+                </Text>
+            </TouchableOpacity>
         </View>
     )
 }

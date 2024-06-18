@@ -6,7 +6,7 @@ export default function Logo(){
     return(
         <View>
             <Image style={styles.logo}
-            source={require('../../../../img/icon.png')}
+            source={require('../../../../img/logoSafra.png')}
             />
         </View>
     )

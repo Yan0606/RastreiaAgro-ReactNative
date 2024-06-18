@@ -13,6 +13,7 @@ import Menu from './src/components/pages/menu/menu';
 import GerenciamentoSafra from './src/components/pages/safra/gerenciamentoSafra/gerenciamentoSafra';
 import MenuConfiguracao from './src/components/pages/menuConfiguracao/menuConfiguracao';
 import GerenciamentoSafra2 from './src/components/pages/safra/gerenciamentoSafra2/gerenciamentoSafra2';
+import EditarSafra from './src/components/pages/safra/editarSafra/safra';
 import { SafeAreaProvider, SafeAreaInsetsContext } from 'react-native-safe-area-context';
 
 function HomeScreen({ navigation }) {
@@ -79,6 +80,12 @@ function MenuConfiguracaoScreen({navigation}) {
   );
 }
 
+function EditarSafraScreen({navigation}) {
+  return (
+    <EditarSafra />
+  );
+}
+
 const Stack = createNativeStackNavigator();
 
 function App() {
@@ -95,6 +102,7 @@ function App() {
           <Stack.Screen name="GerenciamentoSafra" component={GerenciamentoSafraScreen} options={{ headerShown: false}} />
           <Stack.Screen name="GerenciamentoSafra2" component={GerenciamentoSafra2Screen} options={{ headerShown: false}} />
           <Stack.Screen name="MenuConfiguracao" component={MenuConfiguracaoScreen} options={{ headerShown: false}} />
+          <Stack.Screen name="EditarSafra" component={EditarSafraScreen} options={{ headerShown: false}} />
           {/* novas telas adicionar aqui */}
 
         </Stack.Navigator>
