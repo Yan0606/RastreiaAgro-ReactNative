@@ -7,7 +7,7 @@ export default function agricultor(){
     return(
         <View>
             <Image style={styles.personagem}
-            source={require('../../../../img/vetor_agricultor.png')}
+            source={require('../../../../../img/vetor_agricultor.png')}
             />
         </View>
     )

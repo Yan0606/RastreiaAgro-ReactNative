@@ -13,7 +13,7 @@ export default function BtnVoltar() {
         <View>
             <TouchableOpacity style={styles.touch} onPress={() => { menu() }}>
                 <Image style={styles.btnVoltar}
-                    source={require('../../../../img/btnVoltar.png')}
+                    source={require('../../../../../img/btnVoltar.png')}
                 />
             </TouchableOpacity>
         </View>

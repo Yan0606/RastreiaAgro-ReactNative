@@ -10,8 +10,9 @@ import Cadastro from './src/components/pages/cadastro/index';
 import CadastroPropriedade from './src/components/pages/cadastroPropriedade/index';
 import Obrigado from './src/components/pages/obrigado';
 import Menu from './src/components/pages/menu/menu';
-import GerenciamentoSafra from './src/components/pages/gerenciamentoSafra/gerenciamentoSafra';
-import MenuConfiguracao from './src/components/pages/menuConfiguracao/menuConfiguracao'
+import GerenciamentoSafra from './src/components/pages/safra/gerenciamentoSafra/gerenciamentoSafra';
+import MenuConfiguracao from './src/components/pages/menuConfiguracao/menuConfiguracao';
+import GerenciamentoSafra2 from './src/components/pages/safra/gerenciamentoSafra2/gerenciamentoSafra2';
 import { SafeAreaProvider, SafeAreaInsetsContext } from 'react-native-safe-area-context';
 
 function HomeScreen({ navigation }) {
@@ -66,6 +67,12 @@ function GerenciamentoSafraScreen({navigation}) {
   );
 }
 
+function GerenciamentoSafra2Screen({navigation}) {
+  return (
+    <GerenciamentoSafra2 />
+  );
+}
+
 function MenuConfiguracaoScreen({navigation}) {
   return (
     <MenuConfiguracao />
@@ -86,6 +93,7 @@ function App() {
           <Stack.Screen name="Obrigado" component={ObrigadoScreen} options={{ headerShown: false }} />
           <Stack.Screen name="Menu" component={MenuScreen} options={{ headerShown: false}}/>
           <Stack.Screen name="GerenciamentoSafra" component={GerenciamentoSafraScreen} options={{ headerShown: false}} />
+          <Stack.Screen name="GerenciamentoSafra2" component={GerenciamentoSafra2Screen} options={{ headerShown: false}} />
           <Stack.Screen name="MenuConfiguracao" component={MenuConfiguracaoScreen} options={{ headerShown: false}} />
           {/* novas telas adicionar aqui */}
 
