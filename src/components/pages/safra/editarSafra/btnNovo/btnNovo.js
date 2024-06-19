@@ -6,12 +6,12 @@ import { useNavigation } from '@react-navigation/native';
 
 export default function BtnNovo() {
     const navigation = useNavigation();
-    const home = () => {
-        navigation.navigate('Home');
+    const novoTalhao = () => {
+        navigation.navigate('NovoTalhao');
     }
     return (
         <View>
-            <TouchableOpacity style={styles.btnNovo} onPress={() => { home() }}>
+            <TouchableOpacity style={styles.btnNovo} onPress={() => { novoTalhao() }}>
                 <Text style={styles.textBtn}>Novo  +</Text>
             </TouchableOpacity>
         </View>

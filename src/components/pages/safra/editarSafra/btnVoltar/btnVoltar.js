@@ -6,12 +6,12 @@ import { useNavigation } from '@react-navigation/native';
 
 export default function BtnVoltar() {
     const navigation = useNavigation();
-    const home = () => {
-        navigation.navigate('Home');
+    const gerenciamentoSafra2 = () => {
+        navigation.navigate('GerenciamentoSafra2');
     }
     return (
         <View>
-            <TouchableOpacity style={styles.touch} onPress={() => { home() }}>
+            <TouchableOpacity style={styles.touch} onPress={() => { gerenciamentoSafra2() }}>
                 <Image style={styles.btnVoltar}
                     source={require('../../../../../img/btnVoltar.png')}
                 />

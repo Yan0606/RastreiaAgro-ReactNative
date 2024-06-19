@@ -12,7 +12,7 @@ import Btn2 from './btn2/btnProximo';
 import Agricultor from './personagem/index';
 import BalaoConversa from './balaoConversa/index';
 
-export default gerencimentoSafra = () => {
+export default gerenciamentoSafra = () => {
     return (
 
         <View style={styles.container}>

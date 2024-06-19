@@ -10,7 +10,7 @@ import InputSafra2 from './inputSafra2/inputSafra2';
 import Agricultor from './personagem/index';
 import BalaoConversa from './balaoConversa';
 
-export default gerencimentoSafra2 = () => {
+export default gerenciamentoSafra2 = () => {
     return (
         <View style={styles.background}>
             <BtnVoltar />
