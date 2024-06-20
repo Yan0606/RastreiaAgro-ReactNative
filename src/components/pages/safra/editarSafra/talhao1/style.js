@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         paddingHorizontal: 10,
         borderRadius: 10,
+        marginBottom:10,
     },
     textContainer: {
         flexDirection: 'column',

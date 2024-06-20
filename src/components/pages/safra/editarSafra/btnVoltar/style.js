@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     margin: 10,
-    left:60,
+    left:-5,
   },
 });
 

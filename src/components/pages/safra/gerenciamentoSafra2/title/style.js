@@ -6,6 +6,10 @@ const styles = StyleSheet.create({
         color: "#FFFFFF",
         fontSize: 16,
         fontWeight: "bold",
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginBottom:10,
+        textAlign: 'center',
         
     }
 });

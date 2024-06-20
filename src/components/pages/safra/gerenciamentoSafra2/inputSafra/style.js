@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     paddingHorizontal: 10,
     borderRadius:10,
+    marginBottom:10,
 },
 textContainer: {
     flexDirection: 'column',
@@ -30,7 +31,8 @@ dataText: {
 imgEditar: {
     width: 38,
     height: 38,
-    marginBottom: 5, // Espaço entre os botões
+    marginBottom: 5,
+    marginRight:10, // Espaço entre os botões
 },
 imgExcluir: {
     width: 38,

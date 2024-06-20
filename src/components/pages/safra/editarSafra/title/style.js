@@ -7,8 +7,10 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: "bold",
         width:305,
-        left: 20,
+        justifyContent: 'center',
+        alignItems: 'center',
         marginBottom: 20,
+        textAlign: 'center'
     }
 });
 

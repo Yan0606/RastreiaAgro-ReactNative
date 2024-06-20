@@ -15,7 +15,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     position: "absolute",
     overflow: "hidden",
-    marginBottom: -124,
+    marginTop:230,
+    marginRight: 65,
   },
   texto: {
     fontSize: 20,

@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
     right:90,
     top:-90,
   },
+  
 });
 
 export default styles;

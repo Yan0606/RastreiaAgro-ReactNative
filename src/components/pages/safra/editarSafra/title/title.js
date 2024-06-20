@@ -6,7 +6,7 @@ export default function Title() {
     return (
         <View>
             <Text style={styles.textTitle}>
-                Safra1
+                Safra 1
             </Text>
         </View>
     )

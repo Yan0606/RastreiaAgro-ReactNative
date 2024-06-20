@@ -2,9 +2,10 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   btnVoltar:{
-    width: 27,
-    height: 27,
-    marginLeft: 17,
+    width: 40,
+    height: 40,
+    margin: 10,
+    left:-10,
     marginTop: 12,
 
   },

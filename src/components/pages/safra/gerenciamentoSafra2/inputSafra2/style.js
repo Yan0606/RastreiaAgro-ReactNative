@@ -31,6 +31,7 @@ imgEditar: {
     width: 38,
     height: 38,
     marginBottom: 5, // Espaço entre os botões
+    marginRight:10,
 },
 imgExcluir: {
     width: 38,
